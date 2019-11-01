@@ -1,0 +1,808 @@
+@media (min-width:1200px) and (max-width:1440px){
+    .header{
+        .cabuol_top{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_hamburger{
+                            display: none !important;
+                            .cabuol_menu{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    .footer{
+        .cabuol_ctn{
+           .cabuol_row{
+               .cabuol_col{
+                   h4{
+                       font-size: 20px;
+                   }
+               }
+           } 
+        }
+    }
+}
+@media  (min-width:770px) and (max-width:1200px){
+    .header{
+        .cabuol_top{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_hamburger{
+                            display: none !important;
+                            .cabuol_menu{
+                                display: none !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header_center{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_logo{
+
+                        }
+                        .cabuol_on{
+                            .cabuol_menu{
+                                margin-right: 0;
+                                width: 83%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header_menu{
+            .cabuol_ctn{
+                .cabuol_nav{
+                    .cabuol_collpa_left{
+                        .cabuol_navbar{
+                            .cabuol_item{
+                                a{
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                    }
+                    .cabuol_collpa_right {
+                        .cabuol_navbar {
+                            .cabuol_item{
+                                a{
+                                    font-size: 17px;
+                                }  
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .content{
+        .section_one{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_sukien{
+                            padding: 17px 20px;
+                            ul{
+                                margin-bottom: 0;
+                                li{
+                                    a{
+                                        font-size: 17px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section_two{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_img{
+    
+                        }  
+                        .cabuol_cap{
+                            h3{
+                                font-size: 18px;
+                                color: #008452;
+                            }
+                            span{
+
+                            }
+                            p{
+                                font-size: 15px;
+                            }
+                            a{
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section_three{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_tit_a{
+                            font-size: 16px;
+                        }
+                        a{
+                            font-size: 14px;
+                        }
+                        ul{
+                            li{
+                                a{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    .footer{
+        .cabuol_bot{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        h4{
+                            font-size: 20px;
+                        }
+                        .cabuol_left{
+                            span{
+                                font-size: 14px;
+                            }
+                            i{
+                                
+                            }
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                        .cabuol_right{
+                            text-align: right;
+                            span{
+                                font-size: 14px;
+                            }
+                            a{
+                                font-size: 14px;
+                                i{
+        
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media  (min-width:426px) and (max-width:769px){
+    .header{
+        .cabuol_top {
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_btn_grp{
+                            .btn{
+                                i{
+
+                                }
+                            }
+                        }
+                        .cabuol_ngonngu{
+                            .cabuol_des_two{
+                            }
+                            .cabuol_tlb{
+                                .cabuol_btn{
+                                    .btn{
+                                        font-size: 12px !important;
+                                    }
+                                }
+                            }
+                            .cabuol_hamburger{
+                                display: none;
+                            }
+
+                        }
+                    }
+                }
+                
+            }
+        }
+        .header_center{
+           .cabuol_ctn{
+               .cabuol_row{
+                   .cabuol_col{
+                       .cabuol_logo{
+                       }
+                       .cabuol_on{
+                           .cabuol_menu{
+                                margin-left: 33px !important;
+                                width: 93%;
+                               ul{
+                                   li{
+                                        a{
+
+                                        }
+                                   }
+                               }
+                           }
+                       }
+                       .cabuol_below{
+                           .cabuol_time_phone{
+                                .time{
+                                    h2{
+
+                                    }
+                                    p{
+
+                                    }
+                                }
+                                .phone{
+                                    h2{
+
+                                    }
+                                    a{
+
+                                    }
+                                }
+                           }
+                       }
+                   }
+               }
+           }
+        }
+        .header_menu{
+            .cabuol_ctn{
+                .cabuol_nav{
+                    .cabuol_collpa_left{
+                        .cabuol_navbar{
+                            .cabuol_item{
+                                a{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                    .cabuol_collpa_right{
+                        .cabuol_navbar{
+                            .cabuol_item{
+                                a{
+                                    font-size: 12px;
+                                }
+                                .cabuol_search{
+                                    top: 2px !important;
+                                    input{
+                                        font-size: 15px;
+                                    }
+                                }
+                            }    
+                        }   
+                    }
+                }
+            }
+        }
+    }
+    .content{
+        .section_one{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_sukien{
+                            h2{
+
+                            }
+                            ul{
+                                li{
+                                    padding-bottom: 0;
+                                    a{
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section_two{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_img{
+                            width: 25%;
+                        }
+                        .cabuol_cap{
+                            width: 73%;
+                            h3{
+                                font-size: 15px;
+                            }
+                            
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+        .section_three{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_img{
+
+                        }
+                        .cabuol_tit_a{
+
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                        a{
+                            font-size: 14px;
+                        }
+                        ul{
+                            padding-left: 50px;
+                            padding-top: 15px;
+                            li{
+                                a{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+       .cabuol_ctn{
+           .cabuol_row{
+               .cabuol_col{
+                   h4{
+                       font-size: 18px;
+                   }
+                   ul{
+                       li{
+                            font-size: 13px;
+                           a{
+                                font-size: 13px;
+                           }
+                           span{
+                                font-size: 13px;
+                           }
+                       }
+                   }
+               }
+           }
+       } 
+       .cabuol_bot{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_left{
+                            span{
+                                font-size: 14px;
+                            }
+                            i{
+                                
+                            }
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                        .cabuol_right{
+                            text-align: right;
+                            span{
+                                font-size: 14px;
+                            }
+                            a{
+                                font-size: 14px;
+                                i{
+        
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media   (min-width:376px) and (max-width:425px){
+    .header{
+        .cabuol_top{
+            position: relative;
+            .cabuol_ctn{
+                .cabuol_row{
+                    margin-left: 0;
+                    margin-right: 0;
+                    .cabuol_col{
+                        span{
+                            display: none;
+                        }
+                        .cabuol_btn_grp{
+                            button{
+                                font-size: 12px;
+                                padding: 2px 10px !important;
+                            }
+                        }
+                        .cabuol_ngonngu{
+                            text-align: left;
+                            .cabuol_des_two{
+                                display: none;
+                            } 
+                            .cabuol_tlb{
+                                display: inline-block;
+                                vertical-align: middle;
+                                .cabuol_btn{
+                                    button{
+                                        font-size: 11px;
+                                    }
+                                }     
+                            }
+                            .cabuol_hamburger{
+                                display: inline-block;
+                                vertical-align: middle;
+                                text-align: right;
+                                .cabuol_ctn{
+                                    margin-left: 77px;
+                                }
+                                .cabuol_menu{
+                                    display: none;
+                                    width: 100vw;
+                                    height: 100vh;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header_center{
+            .cabuol_ctn{
+                .cabuol_row{
+                    margin-left: 0;
+                    margin-right: 0;
+                    .cabuol_col{
+                        .cabuol_logo{
+
+                        }
+                        .cabuol_on{
+                            display: none;
+                        }
+                        .cabuol_below{
+                            .cabuol_time_phone{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content{
+        .section_one{
+            padding: 20px 0;
+            .cabuol_ctn{
+                display: none;
+            }
+        }
+        .section_two{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_img{
+                            display: block;
+                            width: 100%;
+                        }
+                        .cabuol_cap{
+                            display: block;
+                            width: 100%;
+                            text-align: center;
+                            padding-top: 15px;
+                            a{
+                                text-align: center;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+        .section_three{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_tit_a{
+                            font-size: 17px;
+                        }
+                        padding-bottom: 15px;
+                        p{
+                            font-size: 15px;
+                        }
+                        a{
+                            font-size: 15px;
+                        }
+                        ul{
+                            padding-left: 20px;
+                            li{
+                                a{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+       .cabuol_ctn{
+           .cabuol_row{
+               .cabuol_col{
+                   h4{
+                       font-size: 20px;
+                       padding-bottom: 2%;
+                   }
+                   span{
+                       padding-left: 5px;
+                   }
+               }
+           }
+       } 
+       .cabuol_bot{
+        .cabuol_ctn{
+            .cabuol_row{
+                .cabuol_col{
+                    .cabuol_left{
+                        span{
+                            font-size: 14px;
+                        }
+                        i{
+                            
+                        }
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                    .cabuol_right{
+                        text-align: left;
+                        span{
+                            font-size: 14px;
+                        }
+                        a{
+                            font-size: 14px;
+                            i{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+}
+@media   (min-width:320px) and (max-width:375px){
+    .header{
+        .cabuol_top{
+            .cabuol_ctn{
+                .cabuol_row{
+                    margin-left: 0;
+                    margin-right: 0;
+                    .cabuol_col{
+                        .cabuol_des_one{
+                            display: none;
+                        }
+                        .cabuol_btn_grp{
+                            button{
+                                font-size: 12px;
+                                padding: 2px 10px !important;
+                            }
+                        }
+                        .cabuol_ngonngu{
+                            .cabuol_des_two{
+                                display: none;
+                            }
+                            .cabuol_tlb{
+                                display: inline-block;
+                                .cabuol_btn{
+                                    button{
+                                        font-size: 11px;
+                                    }
+                                }
+                            }
+                            .cabuol_hamburger{
+                                display: inline-block;
+                                
+                                .cabuol_ctn{
+                                    margin-left: 31px;
+                                }
+                                .cabuol_menu{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header_center{
+            .cabuol_ctn{
+                .cabuol_row{
+                    margin-left: 0;
+                    margin-right: 0;
+                    .cabuol_col{
+                        .cabuol_logo{
+
+                        }
+                        .cabuol_on{
+                            display: none;
+                        }
+                        .cabuol_below{
+                            padding-top: 3%;
+                            .cabuol_time_phone{
+                                text-align: center;
+                                .time{
+                                    text-align: center;
+                                    h2{
+
+                                    }
+                                    p{
+
+                                    }
+                                }
+                                .phone{
+                                    text-align: center;
+                                    margin-left: 0;
+                                    h2{
+
+                                    }
+                                    a{
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content{
+        .section_one{
+            display: none;
+        }
+        .section_two{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_img{
+                            width: 100%;
+                        }
+                        .cabuol_cap{
+                            padding-top: 3%;
+                            width: 100%;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+        }
+        .section_sanpham{
+            .cabuol_ctn{
+                .cabuol_tit{
+                    font-size: 20px;
+                }
+                .cabuol_row{
+                    .cabuol_col{
+                        display: block;
+                        width: 100%;
+                        .cabuol_img{
+                            width: 100%;
+                        }
+                        .cabuol_cap{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .section_three{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        width: 100%;
+                        display: block;
+                        .cabuol_tit_a{
+                            display: block;
+                            width: 100%;
+                            font-size: 15px;
+                        }
+                        p{
+                            display: block;
+                            width: 100%;
+                            font-size: 15px;
+                        }
+                        a{
+                            display: block;
+                            width: 100%; 
+                            font-size: 15px;
+                        }
+                        ul{
+                            padding-left: 20px;
+                            li{
+                                a{
+                                    display: block;
+                                    width: 100%; 
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        .cabuol_ctn{
+            .cabuol_row{
+                .cabuol_col{
+                    h4{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .cabuol_bot{
+            .cabuol_ctn{
+                .cabuol_row{
+                    .cabuol_col{
+                        .cabuol_left{
+                            span{
+                                font-size: 14px;
+                            }
+                            i{
+                                
+                            }
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                        .cabuol_right{
+                            text-align: left;
+                            span{
+                                font-size: 14px;
+                            }
+                            a{
+                                font-size: 14px;
+                                i{
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

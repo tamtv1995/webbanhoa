@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+@mixin positon_image($cabuol){
+    position: relative;
+    &::before{
+        content: '';
+        display: block;
+        padding-top: $cabuol;
+    }
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+.header{
+    .cabuol_top{
+        background-color: #ebf5e0;
+        .cabuol_ctn{
+            padding: 5px 0;
+            .cabuol_row{
+                .cabuol_col{
+                    font-size: 14px ;
+                    
+                    .cabuol_des_one{
+                        padding-right: 5px;
+                        color:#f68933 ;
+                    }
+                    .cabuol_btn_grp{
+                        .btn{
+                            padding: 2px 23px;
+                            background-color: #f68933;
+                            border: none;
+                            i{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    .cabuol_ngonngu{
+                        text-align: right;
+                        .cabuol_des_two{
+                            display: inline-block;
+                            vertical-align: middle;
+                            padding-right: 5px;
+                            color:#008752 ;
+                            
+                        }
+                        .cabuol_tlb{
+                            display: inline-block;
+                            vertical-align: middle;
+                            .cabuol_btn{
+                                button{
+                                    font-size: 14px;
+                                    padding: 2px 5px;
+                                    background-color: #008753;
+                                    border: none;
+                                    +button{
+                                        background-color: #bac297;  
+                                        color:#008753;
+                                        border: none ;
+                                    }
+                                }
+                            }
+                        }
+                        .cabuol_hamburger{
+                            display: none;
+                            vertical-align: middle;
+                            text-align: right;
+                            .cabuol_ctn{
+                                padding: 0;
+                                margin-left: 100px;
+                                
+                                .cabuol_bar{
+                                    width: 21px;
+                                    height: 3px;
+                                    background-color: #008753;
+                                    margin: 2px 0;
+                                    transition: 0.4s;
+                                }
+                            }
+                            .cabuol_menu{
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                bottom: 0;
+                                right: 0;
+                                z-index: 999;
+                                >ul{
+                                    width: 100%;
+                                    text-align: left;
+                                    background-color: #9AC56A;
+                                    padding: 10px 30px;
+                                    >li{
+                                        list-style-type: none;
+                                        padding: 5px 0;
+                                        .cabuol_tit{
+                                            border-bottom: 1px solid #fff;
+                                            padding-bottom: 5px;
+                                            a{
+                                                
+                                                display: inline-block;
+                                                width: 49%;
+                                                border: none;
+                                                text-transform: uppercase;
+                                                color: #fff;
+                                                font-size: 18px;
+                                            }
+                                            .cabuol_daux{
+                                                display: inline-block;
+                                                width: 45%;
+                                                text-align: right;
+                                                font-size: 25px;
+                                                color: #008452;
+                                            }
+                                        }
+                                        .cabuol_child_menu{
+                                            padding: 10px 20px;
+                                            padding-bottom: 0;
+                                            ul{
+                                                li{
+                                                    list-style-type: none;
+                                                    a{
+                                                        width: 100%;
+                                                        display: inline-block;
+                                                        vertical-align: top;
+                                                        text-decoration: none;
+                                                        text-transform: capitalize;
+                                                        color: #fff;
+                                                        font-size: 18px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .cabuol_child_div{
+                                            border-top: 1px solid #fff ;
+                                            border-bottom: 1px solid #fff;
+                                            padding: 10px 0;
+                                            ul{
+                                                display: inline-block;
+                                                width: 49%;
+                                                vertical-align: top;
+                                                li{
+                                                    list-style-type: none;
+                                                    a{
+                                                        text-transform: capitalize;
+                                                        border: none;
+                                                        color: #fff;
+                                                        font-size: 15px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .cabuol_btn_search{
+                                            .cabuol_form{
+                                                display: inline-block;
+                                                width: 79%;
+                                                input{
+                                                    display: inline-block;
+                                                    width: 60%;
+                                                    font-size: 13px;
+                                                }
+                                                button{
+                                                    display: inline-block;
+                                                    width: 30%;
+                                                    font-size: 13px;
+                                                }
+                                            }
+                                            .cabuol_btn{
+                                                width: 19%;
+                                                display: inline-block;
+                                                font-size: 13px;
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }    
+                }
+            }
+        }
+    }
+    .header_center{
+        .cabuol_ctn{
+            padding: 15px 0 ;
+           .cabuol_row{
+               .cabuol_col{
+                   .cabuol_logo{
+                            @include positon_image(30%);
+                   }
+                   .cabuol_on{
+                        .cabuol_menu{
+                            background-color: #f1f1f1;
+                            border-radius: 20px;
+                            width: 80%;
+                            margin-left:150px ;
+                            ul{
+                                text-align: center;
+                                li{
+                                    display: inline-block;
+                                    padding: 10px 12px;
+                                    font-size: 14px;
+                                    +li{
+                                        border-left: 1px solid #fff;
+                                    }
+                                    a{
+                                        text-decoration: none;
+                                        &:hover{
+                                            color: #008753;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                   }
+                   .cabuol_below{
+                        .cabuol_time_phone{
+                            text-align: right;
+                            .time{
+                                display: inline-block;
+                                text-align: left;
+                                h2{
+                                    font-size: 18px;
+                                    color: #f68933;
+                                    text-transform: uppercase;
+                                }
+                                p{
+                                    text-transform: uppercase;
+                                    color: #777777;
+                                }
+                            }
+                            .phone{
+                                display: inline-block;
+                                margin-left: 30px;
+                                text-align: left;
+                                h2{
+                                    font-size: 18px;
+                                    color: #008753;
+                                    text-transform: uppercase;
+                                }
+                                a{
+                                    text-transform: uppercase;
+                                    color: #777777;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                   }
+               }
+           } 
+        }
+
+    }
+    .header_menu{
+        background-color: #9ac56a;
+        .cabuol_ctn{
+            padding-left: 0;
+            padding-right: 0;
+            .cabuol_nav{
+                padding: 0;
+                .cabuol_collpa_left{
+                    .cabuol_navbar{
+                        border-left: 2px solid #fff;
+                        .cabuol_item{
+                            padding: 3px 3px;
+                            font-weight: 400;
+                            font-size: 22px;
+                            border-right: 1px solid #fff;
+                            background-color: #f68933;
+                            position: relative;
+                            
+                            a{
+                                text-transform: uppercase;
+                                color: #fff;
+                                
+                            }
+                            +.cabuol_item{
+                                background-color: #9ac56a;
+                                &:hover{
+                                    background-color: #f68933;
+                                }
+                            }
+                            .cabuol_nav_child{
+                                display: none;
+                                background-color: #9AC56A;
+                                padding: 15px 40px;
+                                position: absolute;
+                                top: 54px;
+                                left: 0;
+                                width:200px;
+                                z-index: 99;
+                                li{
+                                    list-style-type: none;
+                                    a{
+                                        color: #fff;
+                                        font-size: 15px;
+                                        text-transform: none;
+                                        text-decoration: none;
+                                        i{
+                                            padding-right: 5px;
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                            &:hover{
+                                .cabuol_nav_child{
+                                    display: block;
+                                }
+                                
+                            }
+                            
+                        } 
+                        
+                    }
+                }
+                .cabuol_collpa_right{
+                    .cabuol_navbar{
+                        .cabuol_item{
+                            padding: 3px 3px;
+                            font-weight: 400;
+                            font-size: 22px;
+                            border-right: 1px solid #fff;
+                            position: relative;
+                            a{
+                                text-transform: uppercase;
+                                color: #fff;
+                                
+                            }
+                            .cabuol_search{
+                                position: absolute;
+                                top: 12px;
+                                right: 5px;
+                                display: none;
+                                input{
+                                    padding: 0 15px;
+                                    border: none;
+                                    outline: none;
+                                    border-radius: 20px;
+                                }
+                            }
+                            &:hover{
+                                .cabuol_search{
+                                    display: block;
+                                }
+                                .cabuol_cart{
+                                    display: block;
+                                }
+                            }
+                            +.cabuol_item{
+                                &:hover{
+                                    background-color: #fff;
+                                    a{
+                                        i{
+                                            color: #9AC56A;
+                                        }
+                                    }
+                                }
+                            }
+                            .cabuol_cart{
+                                position: absolute;
+                                display: none;
+                                top: 55px;
+                                right: -2px;
+                                z-index: 99;
+                                width: 250px;
+                                background-color: #fff;
+                                color: #777777;
+                                border: 1px solid #9AC56A;
+                                padding: 10px 10px;
+                                p{
+                                    font-size: 15px;
+                                    padding-bottom: 20px;
+                                    border-bottom: 1px solid #777777;
+                                }
+                                a{
+                                    color: #777777;
+                                    font-size: 13px;
+                                }
+                                &:hover{
+
+                                }
+                            }
+                        } 
+                        
+                    }
+                }
+            }
+        }
+    }
+
+}
+.content{
+    .section_one{
+        background-image:url("/asset/images/content/bg-footer.jpg") ; 
+        padding: 3% 0;
+        .cabuol_ctn{
+            padding-left: 0;
+            .cabuol_row{
+                .cabuol_col{
+                    padding-left: 0;
+                    padding-right: 0;
+                    .cabuol_slide{
+                        margin-left: 15px;
+                    }
+                    h2{
+                        color: #008451;
+                        text-transform: uppercase;
+                        font-size: 20px;
+                        border-bottom: 1px solid #dadada;
+                        padding-bottom: 15px;
+                    }
+                    .cabuol_sukien{
+                        margin-left: 15px;
+                        background-color: #fff;
+                        padding: 19px 20px;
+                        margin-right: 10px;
+                        border-radius: 10px;
+                        ul{
+                            li{
+                                a{
+                                    color: #f68933;
+                                    font-size: 20px;
+                                    text-decoration: none;
+                                }
+                                list-style-type: none;
+                                background-image: url("/asset/images/content/bg-line.jpg") repeat-x left 42%;
+                                padding-bottom: 10px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .section_two{
+        padding-top:3%;
+        .cabuol_ctn{
+            background-color: #F6F6F6;
+            border-radius: 5px;
+            .cabuol_row{
+                .cabuol_col{
+                    padding:20px 20px;
+                    .cabuol_img{
+                        display: inline-block;
+                        width: 30%;
+                        @include positon_image(100%);
+                        vertical-align: top;
+                    }
+                    .cabuol_cap{
+                        display: inline-block;
+                        width: 69%;
+                        vertical-align: top;
+                        padding-left: 20px;
+                        h3{
+                            color: #008451;
+                            font-size: 20px;
+                        }
+                        p{
+
+                        }
+                        a{
+                            padding: 5px 10px;
+                            background-color: #f68933;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            text-decoration: none;
+                            border-radius: 10px;
+                            color:#fff ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section_sanpham{
+        padding-top: 3%;
+        .cabuol_ctn{
+            .cabuol_tit{
+                color: #008451;
+                border-bottom: 1px solid #bbbbbb;
+                padding-bottom: 10px;
+                text-transform: uppercase;
+                font-size: 26px;
+            }
+            .cabuol_row{
+                padding-top: 3%;
+                .cabuol_col{
+                    .cabuol_img{
+                       @include positon_image(100%); 
+                    }
+                    .cabuol_cap{
+                        text-align: center;
+                        a{
+                            color: #008451;
+                        }
+                        p{
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section_three{
+        .cabuol_ctn{
+            background-color: #f5f5f5;
+            .cabuol_row{
+                padding: 3% 0;
+                .cabuol_col{
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    .cabuol_img{
+                        @include positon_image(100%)
+                    }
+                    .cabuol_tit_a{
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #5a5a5a;
+                    }
+                    .cabuol_a{
+                        color: #5a5a5a;
+                        text-align: right;
+                        
+                    }
+                    p{
+                        text-align: justify;
+                        color: #5a5a5a;
+                    }
+                    ul{
+                        li{
+                            list-style-type: square;
+                            a{
+                                color: #5a5a5a;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section_four{
+        .cabuol_ctn{
+            .cabuol_cap{
+                border: 1px solid #9AC56A;
+                padding: 20px 20px;
+                p{
+                    
+                }
+                .cabuol_a{
+                    text-align: right;
+                    a{
+                        color: #008451;
+                        text-decoration: none;
+                    } 
+                }
+            }
+            .cabuol_image{
+                margin: 3% 0;
+                @include positon_image(8%)
+            }
+        }
+    }
+}
+.footer{
+    padding-top: 3%;
+    background-image: url("/asset/images/content/bg-footer.jpg");
+    background-position: center;
+    .cabuol_ctn{
+        .cabuol_row{
+            .cabuol_col{
+                h4{
+                    font-size: 24px;
+                    color: #555555;
+                    text-transform: uppercase;
+                    padding-bottom: 5%;
+                    border-bottom: 1px solid #999 ;
+                }
+                >ul{
+                    >li{
+                        list-style-type: none;
+                        font-size: 16px;
+                        font-weight: normal;
+                        padding-bottom: 5px;
+                        i{
+                            padding-right: 10px;
+                            padding-left: 5px;
+                            font-size: 12px;
+                        }
+                        >ul{
+                            padding-left: 20px ;
+                            padding-top: 10px;
+                            >li{
+                                color: #999;
+                                list-style-type: none;
+                                padding: 5px 0;
+                            }
+                        }
+                        a{
+                            padding-left: 5px;
+                            color: #777777;
+                            text-decoration: none;
+                            font-weight: bold;
+                            &:hover{
+                                color: #008451;
+                            }
+                        }
+                        span{
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cabuol_bot{
+        padding: 20px 0;
+        background-color: #2f2f2f;
+        .cabuol_ctn{
+            .cabuol_row{
+                .cabuol_col{
+                    .cabuol_left{
+                    text-align: left;
+                        a{
+                            padding-left: 3px;
+                            color: #fff;
+                        }
+                        span{
+                            color: #fff;
+        
+                        }
+                        i{
+                            color: #fff;
+                            font-size: 15px;
+                            padding-left: 3px;
+                        }
+                    }
+                    .cabuol_right{
+                        text-align: right;
+                        span{
+                            color: #fff;
+        
+                        }
+                        i{
+                            
+                            color: #fff;
+                            font-size: 25px;
+                            padding-left: 5px;
+                        }
+                    }
+         
+                }
+            }
+        }
+    }
+}
+
